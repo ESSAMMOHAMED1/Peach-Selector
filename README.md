@@ -4,9 +4,7 @@ Follow these steps to manually install the Chrome extension directly from my Git
 
 ## Step 1: Download the Repository
 
-1. Go to my GitHub repository: [GitHub Repository Link](https://github.com/yourusername/your-repository-name).
-2. Click the green **Code** button on the right side of the page.
-3. You have two options to download the repository:
+. You have two options to download the repository:
    - **Clone using Git** (recommended if you have Git installed):
      - Open a terminal or command prompt.
      - Run this command to clone the repository:
