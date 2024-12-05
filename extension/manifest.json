@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Peach Selector",
+  "version": "1.0",
+  "description": "Selects a specific column of radio buttons dynamically",
+  "permissions": ["scripting"],
+  "host_permissions": ["*://*/*"],
+  "icons": {
+    "16": "icon16.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
